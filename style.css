@@ -1,0 +1,511 @@
+*
+{
+    box-sizing: border-box;
+    font-family:"Taviraj", serif;
+}
+.container
+{
+    width: 1300px;
+    margin: auto;
+}
+a
+{
+    text-decoration: none;
+}
+.bg
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+}
+/*start navbar*/
+.navbar ul li
+{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    font-size: large;
+    
+    
+}
+.navbar ul
+{
+    float: right;
+    padding-right: 50px
+}
+.navbar
+{
+    overflow: hidden;
+    background: rgba(0,0,0,.7);
+    position: fixed;
+    top : 0;
+    width: 100%;
+}
+
+
+.navbar ul li a
+{
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.navbar ul li a:hover
+{
+    color:rgb(90,166,237);
+    font-size: 22px;
+}
+
+
+/*end navbar*/
+/*start slider*/
+.slider
+{
+    text-align: center;
+    height : 700px;
+    margin-top: 300px;
+}
+.slider #mo
+{
+    font-size:40px;
+    color : black;
+}
+.slider #ahmed
+{
+    font-size : 22px;
+    color :rgb(242,242,242);
+    
+   
+    
+}
+.slider .button
+{
+    background: rgb(90,166,237);
+    height: 46px;
+    width: 123px;
+    color : white;
+    padding: 10px;
+    padding-top: 13px;
+    display: block;
+   margin: 50px auto;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+.slider .button:hover
+{
+    filter: brightness(120%);
+}
+.lol , .lol2
+{
+    float: left;
+    width: 30%;
+    background-color: rgba(255,255,255,0.6);
+    height: 400px;
+    
+    
+}
+.lol .para,.lol2 .para
+{
+    padding: 20px;
+    line-height: 2;
+}
+.lol
+{
+    margin-right: 10%;
+    margin-left: 15%;
+}
+.lol .span
+{
+   background: rgba(90,166,237,.6);
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    
+}
+.lol2 .span
+{
+   background: rgba(90,166,237,.6);
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    
+}
+.lol2
+{
+    margin-right: 15%;
+}
+/*end slider*/
+/*start umbrella*/
+.umbrella
+{
+    background-color: rgb(242,242,242);
+    padding: 90px;
+    
+}
+.umbrella .container
+{
+    background-color: rgb(255,255,255);
+   
+    padding-bottom: 40px;
+}
+.umbrella .container .image
+{
+    background-image: url("pic01.jpg");
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 353px;
+    margin-bottom: 50px;
+   
+}
+.umbrella .container .paragraph
+{
+    text-align: center;
+    font-size : 15px;
+    font-stretch: ultra-condensed;
+    color: rgb(174,166,174);
+    letter-spacing: 1px;
+}
+.umbrella .container .paragraph span
+{
+    font-size: 28px;
+}
+.umbrella .container .paragraph .hr
+{
+    margin: auto;
+    border-top : .5px solid #ccc;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.umbrella .container .paragraph .a
+{
+    margin-bottom: 40px;
+}
+
+
+
+
+/*end umbrella*/
+/*start learn more*/
+.learn
+{
+    background: rgba(0, 0, 0, 0.61);
+    height: 300px;
+    color: white;
+    
+}
+.learn .container > div
+{
+    float: left;
+    width : 33.333333%;
+    margin-top: 70px;
+    text-align: center;
+}
+.learn .container > div p
+{
+    font-size: 15px;
+    color: gray;
+    margin-top: 50px;
+    
+}
+.learn .container .button
+{
+     background: rgba(118,118,118,.5);
+    height: 46px;
+    width: 123px;
+    color : white;
+    padding: 10px;
+    padding-top: 13px;
+    display: block;
+   margin: 50px auto;
+    border: .1px solid white;
+   
+    transition: all .5s ease-in-out;
+    margin-bottom: 90px;
+    
+}
+
+.learn .container .button:hover
+{
+    filter : brightness(220%)
+}
+
+
+/*end learn more*/
+/*start articles*/
+.articles
+{
+    height: 700px;
+    background-color: rgb(242,242,242);
+    
+}
+.articles .container >div
+{
+    float: left;
+    width: 45%;
+    text-align: center;
+    background: white;
+    height: 500px;
+    box-shadow: 6px 6px 6px grey;
+    margin-bottom: 80px;
+}
+.articles .container >div span
+{
+    font-size: 27px;
+    
+}
+.articles .container >div p
+{
+    font-size: 15px;
+    color: #ccc;
+    word-spacing: 2px;
+    line-height: 1.5
+}
+.articles .container .pad
+{
+    margin-right: 10%;
+}
+.articles .container .hr
+{
+     margin: auto;
+    border-top : .5px solid #ccc;
+    width:80%;
+    margin-top: 57px;
+    margin-bottom: 50px;
+}
+.articles .container .pad .image
+{
+    background-image: url("pic02.jpg");
+    width: 100%;
+    height: 208px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+     margin-bottom: 50px;
+}
+.articles .container .marg .image
+{
+     background-image: url("pic03.jpg");
+    width: 100%;
+    height: 208px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+/*end articles*/
+/*start shadow*/
+.shadow
+{
+   background: rgba(0, 0, 0, 0.61);
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+.shadow .container span
+{
+    font-size: 34px;
+    
+}
+.shadow .container p
+{
+    font-size: 15px;
+    word-spacing: 2px;
+    color: grey;
+}
+
+
+
+
+
+/*end shadow*/
+/*start contact*/
+.footer
+{
+    background-color: rgb(242,242,242);
+    height: 880px;
+    padding: 50px 80px;
+    text-align: center; 
+    font-size: 15px;
+    overflow: hidden;
+}
+select span
+{
+    color : grey;
+}
+.footer .container
+{
+    background: white;
+    padding: 15px;
+    height: 314px;
+}
+.footer .container span
+{
+   
+    font-size: 26px;
+    
+}
+.footer .container .hr
+{
+        margin: auto;
+    border-top : .5px solid #ccc;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer .container .np 
+{
+    margin-top: 60px;
+    
+}
+.footer .container .np input
+{
+    border-radius: 6px;
+    width: 545px;
+    height: 38px;
+    padding: 8px;
+     border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+.footer .container .np > div
+{
+    float : left;
+    width: 50%;
+    padding: 10px;
+}
+
+.footer .container select
+{
+    float: left;
+    border-radius: 6px;
+    width: 545px;
+    height: 38px;
+    padding: 8px;
+     border: 1px solid #ccc;
+    margin-left: 4px;
+    
+}
+#label
+{
+    float: left;
+    padding: 10px;
+}
+
+.message .container
+{
+    background: white;
+    height: 340px;
+    
+}
+.message .container label
+{
+    float: left;
+    padding: 20px;
+}
+textarea
+{
+    float: left;
+    width: 600px;
+    height: 226px;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.submit
+{
+    text-align: center;
+}
+input[type="text"],input[type="email"],select,textarea
+{
+    background-color: rgb(247,247,247);
+}
+input[type="text"]:focus,input[type="email"]:focus,select:focus,textarea:focus
+{
+    box-shadow: 4px 4px 4px grey;
+}
+input[type="submit"]
+{
+    background-color: rgb(90,166,237);
+    color: white;
+    padding: 11px;
+    font-size: 17px;
+    width: 158px;
+    height: 51px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s ease-in-out;
+}
+input[type="submit"]:hover
+{
+    filter: brightness(120%)
+}
+/*end contact*/
+.copy
+{
+    color: black;
+    margin-top: 90px;
+}
+
+/*start social*/
+i
+{
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.social .container ul li
+{
+    list-style-type: none;
+    float: left;
+    padding:10px;
+    font-size: 33px;
+    padding-left: 40px;
+}
+.social .container ul
+{
+    float: right;
+}
+.social
+{
+    background-color:rgba(0,0,0,.6);
+    overflow: hidden;
+    color: white;
+}
+.social .container p
+{
+    float: left;
+    padding: 10px;
+    font-size: 26px;
+    padding-top: 2px;
+}
+.social .container ul li a
+{
+    transition: all .5s ease-in-out;
+}
+        
+.social .container ul li a #face:hover
+{
+    color : rgb(90,166,237);
+}
+.social .container ul li a #twitter:hover
+{
+    color : rgb(90,166,237);
+}
+.social .container ul li a #whats:hover
+{
+    color : rgb(23,197,76);
+}
+.social .container ul li a #youtube:hover
+{
+    color: red;
+}
+/*end social*/
+
+
+
+
+
